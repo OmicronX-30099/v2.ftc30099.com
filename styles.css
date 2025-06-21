@@ -703,8 +703,8 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-container .w-row {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -7px;
+  margin-right: -7px;
 }
 
 .w-row:before, .w-row:after {
