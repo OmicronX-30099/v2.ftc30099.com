@@ -2989,3 +2989,9 @@ h1 {
     place-self: auto;
   }
 }
+
+#SponsorsIs0Heading {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
