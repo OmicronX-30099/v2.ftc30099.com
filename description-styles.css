@@ -1,0 +1,87 @@
+div.navbar.w-nav {
+  display: block;
+  position: fixed; /* This makes the navbar stick to the viewport */
+  top: 0px;
+  right: 0px;
+  bottom: 859px; /* This value seems incorrect if the navbar should be at the top */
+  left: 0px;
+  width: 1429px;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px none rgb(51, 51, 51);
+  flex-direction: row;
+  justify-content: normal;
+  align-items: normal;
+  gap: normal;
+  grid-template-columns: none;
+  grid-template-rows: none;
+  grid-gap: normal;
+  color: rgb(51, 51, 51);
+  background-color: rgb(25, 35, 35);
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1000; /* High z-index ensures it's above other content */
+  box-sizing: border-box;
+}
+div.container.w-container {
+
+  display: block;
+  position: static; /* Positioned normally within the flow */
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  width: 1357.55px;
+  height: 60px; /* Inherits height from parent or is explicitly set */
+  margin: 0px 35.7344px 0px 35.7188px; /* Center-aligned with margins */
+  padding: 0px;
+  border: 0px none rgb(51, 51, 51);
+  flex-direction: row;
+  justify-content: normal;
+  align-items: normal;
+  gap: normal;
+  grid-template-columns: none;
+  grid-template-rows: none;
+  grid-gap: normal;
+  color: rgb(51, 51, 51);
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 1;
+  visibility: visible;
+  z-index: auto;
+  box-sizing: border-box;
+  
+}
+
+div#w-nav-overlay-0 {
+  display: none; /* This element is not currently visible */
+  position: absolute; /* Positioned relative to the nearest positioned ancestor (or initial containing block) */
+  top: 100%; /* Likely intended for a dropdown/mobile menu to appear below the navbar */
+  right: 0px;
+  bottom: auto;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  border: 0px none rgb(51, 51, 51);
+  flex-direction: row;
+  justify-content: normal;
+  align-items: normal;
+  gap: normal;
+  grid-template-columns: none;
+  grid-template-rows: none;
+  grid-gap: normal;
+  color: rgb(51, 51, 51);
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 1;
+  visibility: visible;
+  z-index: auto;
+  box-sizing: border-box;
+}
